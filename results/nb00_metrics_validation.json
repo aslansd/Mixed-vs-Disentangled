@@ -1,0 +1,112 @@
+{
+ "continuous": {
+  "pure (rectified, 1 factor/neuron)": {
+   "disent": 0.9999798730792753,
+   "modularity": 0.9999535370591536,
+   "mig": 0.08728328170350763,
+   "pr": 2.406909134720235,
+   "nms_mean": 1.4588694142089396e-05,
+   "unselective": 0.0,
+   "pure": 1.0,
+   "linear_mixed": 0.0,
+   "nonlinear_mixed": 0.0,
+   "mean_rate": 0.24758863450892138,
+   "mean_sq": 0.18014162912310824,
+   "frac_active": 1.0
+  },
+  "linear mixed (no rectification)": {
+   "disent": 0.5321422260645787,
+   "modularity": 0.8840581890596212,
+   "mig": 0.199584137049452,
+   "pr": 1.6387437762312302,
+   "nms_mean": 4.3459680298954585e-14,
+   "unselective": 0.0,
+   "pure": 0.35,
+   "linear_mixed": 0.65,
+   "nonlinear_mixed": 0.0,
+   "mean_rate": 0.6647709804589552,
+   "mean_sq": 0.8893829890943804,
+   "frac_active": 1.0
+  },
+  "rectified random mixing (lazy-like)": {
+   "disent": 0.5523124940735054,
+   "modularity": 0.8803824118229866,
+   "mig": 0.12241057589498389,
+   "pr": 2.160925046225454,
+   "nms_mean": 0.1307594505236029,
+   "unselective": 0.0,
+   "pure": 0.25,
+   "linear_mixed": 0.25,
+   "nonlinear_mixed": 0.5,
+   "mean_rate": 0.3306165880077169,
+   "mean_sq": 0.4868108766390999,
+   "frac_active": 1.0
+  },
+  "multiplicative (f1\u00b7f2 terms)": {
+   "disent": 0.6276233444378335,
+   "modularity": 0.3580266784877564,
+   "mig": 0.058324172328068635,
+   "pr": 1.7124716241983058,
+   "nms_mean": 0.5755734811373363,
+   "unselective": 0.0,
+   "pure": 0.05,
+   "linear_mixed": 0.2,
+   "nonlinear_mixed": 0.75,
+   "mean_rate": 0.24270516111972848,
+   "mean_sq": 0.13164959202497473,
+   "frac_active": 1.0
+  },
+  "conjunctive bumps (place-cell-like)": {
+   "disent": 0.20297830239337059,
+   "modularity": 0.5937132727941276,
+   "mig": 0.021284559649663692,
+   "pr": 6.432010809136947,
+   "nms_mean": 0.2565922763251719,
+   "unselective": 0.0,
+   "pure": 0.0,
+   "linear_mixed": 0.1,
+   "nonlinear_mixed": 0.9,
+   "mean_rate": 0.114475955158864,
+   "mean_sq": 0.06278237112726294,
+   "frac_active": 1.0
+  }
+ },
+ "discrete": {
+  "pure": {
+   "SD": 0.7483333333333334,
+   "CCGP": 1.0,
+   "NMS": 0.0034681444924906444,
+   "unselective": 0.0,
+   "pure": 1.0,
+   "linear_mixed": 0.0,
+   "nonlinear_mixed": 0.0
+  },
+  "linear mixed": {
+   "SD": 0.7603333333333333,
+   "CCGP": 0.9952777777777778,
+   "NMS": 0.0017081479654074815,
+   "unselective": 0.0,
+   "pure": 0.08333333333333333,
+   "linear_mixed": 0.9166666666666666,
+   "nonlinear_mixed": 0.0
+  },
+  "random (NMS)": {
+   "SD": 0.9996666666666667,
+   "CCGP": 0.3530555555555555,
+   "NMS": 0.5948001989238613,
+   "unselective": 0.0,
+   "pure": 0.0,
+   "linear_mixed": 0.041666666666666664,
+   "nonlinear_mixed": 0.9583333333333334
+  },
+  "XOR-conjunctive": {
+   "SD": 0.6769999999999998,
+   "CCGP": 0.165,
+   "NMS": 0.9978630632816253,
+   "unselective": 0.0,
+   "pure": 0.0,
+   "linear_mixed": 0.0,
+   "nonlinear_mixed": 1.0
+  }
+ }
+}
